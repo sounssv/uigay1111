@@ -264,7 +264,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(180, 220, 245)}
                 ):Play()
             end
         )
@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(180, 220, 245)}
+                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
                 ):Play()
             end
         )
@@ -313,7 +313,7 @@ function a:Window(w)
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(0, 154, 255)
+        V.TextColor3 = Color3.fromRGB(50, 154, 25)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
@@ -334,7 +334,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(180, 220, 245)}
                 ):Play()
             end
         )
@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(180, 220, 245)}
+                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
                 ):Play()
             end
         )
@@ -392,18 +392,18 @@ function a:Window(w)
         a4.Size = UDim2.new(0, 203, 0, 36)
         a5.Name = "SliderText"
         a5.Parent = a4
-        a5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        a5.BackgroundColor3 = Color3.fromRGB(50, 154, 25)
         a5.BackgroundTransparency = 1.000
         a5.BorderSizePixel = 0
         a5.Size = UDim2.new(0, 203, 0, 36)
         a5.Font = Enum.Font.Gotham
         a5.Text = "  " .. tostring(Y) or ""
-        a5.TextColor3 = Color3.fromRGB(255, 255, 255)
+        a5.TextColor3 = Color3.fromRGB(0, 154, 255)
         a5.TextSize = 14.000
         a5.TextXAlignment = Enum.TextXAlignment.Left
         a6.Name = "SliderBack"
         a6.Parent = a4
-        a6.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+        a6.BackgroundColor3 = Color3.fromRGB(19, 154, 242)
         a6.BorderSizePixel = 0
         a6.Position = UDim2.new(0.57099998, 0, 0.680000007, 0)
         a6.Size = UDim2.new(0, 80, 0, 7)
@@ -412,7 +412,7 @@ function a:Window(w)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
-        a8.BackgroundColor3 = Color3.fromRGB(131, 133, 255)
+        a8.BackgroundColor3 = Color3.fromRGB(165, 214, 247)
         a8.BorderSizePixel = 0
         a8.Size = UDim2.new((S or 0) / a2, 0, 1, 0)
         a9.CornerRadius = UDim.new(0, 4)
@@ -420,14 +420,14 @@ function a:Window(w)
         a9.Parent = a8
         aa.Name = "SliderValue"
         aa.Parent = a4
-        aa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        aa.BackgroundColor3 = Color3.fromRGB(99, 188, 246)
         aa.BackgroundTransparency = 1.000
         aa.BorderSizePixel = 0
         aa.Position = UDim2.new(0.571428597, 0, 0.166666672, 0)
         aa.Size = UDim2.new(0, 80, 0, 16)
         aa.Font = Enum.Font.Code
         aa.Text = S or a1
-        aa.TextColor3 = Color3.fromRGB(255, 255, 255)
+        aa.TextColor3 = Color3.fromRGB(0, 154, 255)
         aa.TextSize = 14.000
         if S and S ~= a1 then
             N(S)
