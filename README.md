@@ -68,10 +68,10 @@ function ClickEffect(r)
             local s = Instance.new("ImageLabel")
             s.Name = "Ripple"
             s.Parent = r
-            s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            s.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
             s.BackgroundTransparency = 1.000
             s.ZIndex = 8
-            s.Image = "rbxassetid://2708891598"
+            s.Image = "rbxassetid://"
             s.ImageTransparency = 0.800
             s.ScaleType = Enum.ScaleType.Fit
             s.ImageColor3 = Color3.fromRGB(131, 132, 255)
@@ -133,11 +133,11 @@ function a:Window(w)
     z.Size = UDim2.new(0, 212, 0, 2)
     A.Color =
         ColorSequence.new {
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(180, 220, 245)),
-        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(180, 220, 245)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(180, 220, 245)),
-        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(180, 220, 245)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 220, 245))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(43, 43, 43))
     }
     A.Name = "WindowLineGradient"
     A.Parent = z
@@ -256,7 +256,7 @@ function a:Window(w)
         P.Size = UDim2.new(0, 203, 0, 36)
         P.Font = Enum.Font.Gotham
         P.Text = "  " .. tostring(L) or ""
-        P.TextColor3 = Color3.fromRGB(255, 255, 255)
+        P.TextColor3 = Color3.fromRGB(0, 154, 255)
         P.TextSize = 14.000
         P.TextXAlignment = Enum.TextXAlignment.Left
         P.MouseEnter:Connect(
@@ -264,7 +264,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(13, 132, 209)}
+                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
                 ):Play()
             end
         )
@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
+                    {BackgroundColor3 = Color3.fromRGB(180, 220, 245)}
                 ):Play()
             end
         )
@@ -307,13 +307,13 @@ function a:Window(w)
         U.Size = UDim2.new(0, 203, 0, 36)
         V.Name = "ToggleText"
         V.Parent = U
-        V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        V.BackgroundColor3 = Color3.fromRGB(0, 154, 255)
         V.BackgroundTransparency = 1.000
         V.BorderSizePixel = 0
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(255, 255, 255)
+        V.TextColor3 = Color3.fromRGB(0, 154, 255)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
+                    {BackgroundColor3 = Color3.fromRGB(180, 220, 245)}
                 ):Play()
             end
         )
