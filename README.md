@@ -133,11 +133,11 @@ function a:Window(w)
     z.Size = UDim2.new(0, 212, 0, 2)
     A.Color =
         ColorSequence.new {
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(43, 43, 43)),
-        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(43, 43, 43)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(43, 43, 43)),
-        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(43, 43, 43)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(43, 43, 43))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(180, 220, 245)),
+        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(180, 220, 245)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(180, 220, 245)),
+        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(180, 220, 245)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(180, 220, 245))
     }
     A.Name = "WindowLineGradient"
     A.Parent = z
